@@ -1,0 +1,45 @@
+{
+  "name": "vue-marked-loader",
+  "version": "0.1.0",
+  "description": "webpack loader of converting markdown to vue component based on marked",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerret321/vue-marked-loader.git"
+  },
+  "keywords": [
+    "vue",
+    "markdown",
+    "vue-loader",
+    "vue-marked-loader"
+  ],
+  "author": "321jiangtao@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jerret321/vue-marked-loader/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "github-markdown-css": "^2.3.0",
+    "style-loader": "^0.13.1",
+    "vue": "^2.0.3",
+    "vue-loader": "^9.7.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "marked": "^0.3.6",
+    "dom-parser":"0.1.5",
+    "highlight.js": "^9.9.0",
+    "loader-utils": "^0.2.15",
+    "rimraf": "^2.5.2"
+  },
+  "scripts": {
+    "dev": "cd example && webpack-dev-server --inline --hot --port 8888"
+  },
+  "homepage": "https://github.com/Jerret321/vue-marked-loader#readme"
+}
