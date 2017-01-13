@@ -1,6 +1,6 @@
 # vue-marked-loader
 
-> Convert Markdown file to Vue Component using markdown-it, support custom languages
+> Convert Markdown file to Vue Component using marked, support custom languages
 
 ## Installation
 
